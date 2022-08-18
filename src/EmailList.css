@@ -1,0 +1,26 @@
+.EmailList{
+    flex: 1;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.EmailList-settings{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 100;
+}
+
+.EmailList-sections{
+    display: flex;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 110;
+}
